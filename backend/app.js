@@ -8,7 +8,7 @@ const feedRoute = require("./routes/feed.routes");
 
 mongoose
   .connect(
-    "mongodb+srv://user:lvRGsGt4K0nUngeV@cluster0.dhg8o.mongodb.net/fedbk?retryWrites=true&w=majority",
+    "mongodb+srv://DB01:DB01@cluster0.lx1vj.mongodb.net/FeedBack?retryWrites=true&w=majority",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => console.log("Connected to database successfully"))
